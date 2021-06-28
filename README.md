@@ -16,6 +16,8 @@ Go to database.js wich is located inside config folder (src/config/database.js) 
 
 Use the package manager npm for the following steps.
 
+This command will install the dependencies located at the package.json.
+
 ```bash
 npm install
 ```
