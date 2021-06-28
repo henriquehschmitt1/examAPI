@@ -1,7 +1,7 @@
 
 # Description
 
-This is an API made with NodeJS, Express, PostgresSQL and Sequelize ORM. It's basically a CRUD for an exams context, wich contains title, questions, alternatives and answers.
+This is an API made with NodeJS, Express, PostgresSQL and Sequelize ORM. It's basically a CRUD for an exams context, which contains title, questions, alternatives and answers.
 
 ## Requirements
 
