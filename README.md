@@ -39,7 +39,7 @@ All routes, by default, are served at localhost port 8080.
 
 * /exams - This route will get all the exams.
 * /exams/questions - This route wil get all the questions.
-* /exams/id?id=1 - This route will get one exam and all of its questions.
+* /exams/id?id=1 - This route will get one exam and all of its questions, by passing the exam id as a query param.
 
 ## POST Routes
 
