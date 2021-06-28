@@ -41,6 +41,30 @@ All routes, by default, are served at localhost port 8080.
 
 ## POST Routes
 
-* /exams - This route will let you create an exam.
-* /exams/questions - This route will let you create a question.
-* /exams/questions/answer - This route will let you assign wich option is correct for a specific question.
+* /exams - This route will let you create an exam, by passing the exam title and questions id on the body
+
+```bash
+{
+    "title" : "OOP test",
+    "questions" : [1]
+}
+```
+
+* /exams/questions - This route will let you create a question, by passing the question, the options and the descriptions of the options on the body.
+
+```bash
+{
+    "question": "What is 1+1",
+    "options" : ["A", "B", "C"],
+    "descriptions" : ["2", "3", "9"]
+}
+```
+
+* /exams/questions/answer - This route will let you assign wich option is correct for a specific question, by passing the question id and the option id on the body.
+
+```bash
+{
+    "questionId": 1,
+    "optionId" : 2
+}
+```
